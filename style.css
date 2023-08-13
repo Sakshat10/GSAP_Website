@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100vw;
+    background-color: #000;
+}
+#nav{
+    padding: 0px 30px;
+    height: 100px;
+    width: 100vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+#nav-part3{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    cursor: pointer;
+}
+img{
+    height: 65px;
+}
+#nav h3{
+    text-transform: uppercase;
+}
+#nav h4{
+    text-transform: uppercase;
+}
+#nav button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#nav button:hover{
+    background-color: cadetblue;
+    transition: ease-in-out .2s;
+}
+#main h1{
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main h1 span {
+    background-color: rgb(126, 33, 33);
+    font-size: 25px;
+    margin: 0 40px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#main h1 span:hover{
+    background-color: brown;
+    transition: ease-in-out .5s;
+}
+#main h1:nth-child(2){
+    margin-top: 40px;
+}
+#main #left-img{
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    border-radius: 30px;
+}
+#main #right-img{
+    height: 300px;
+    position: absolute;
+    bottom: 14%;
+    right: 7%;
+    border-radius: 30px;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 25px;
+
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    bottom: 4%;
+    left: 4%;
+}
+.social-links div{
+    font-size: 32px;
+    cursor: pointer;
+    /* border-radius: 50%; */
+}
